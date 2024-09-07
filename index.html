@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Median XL Holy Grail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Median XL Holy Grail</h1>
+        </header>
+    
+        <main>
+            <section id="filter-controls">
+                <div id="category-filters">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="tiered-uniques">Tiered Uniques</button>
+                    <button class="category-btn" data-category="sacred-uniques">Sacred Uniques</button>
+                    <button class="category-btn" data-category="sets">Sets</button>
+                    <button class="category-btn" data-category="charms-trophies">Charms & Trophies</button>
+                    <button class="category-btn" data-category="runes">Runes</button>
+                </div>
+                
+                
+                <div id="subcategory-filters">
+                    <button class="subcategory-btn active" data-subcategory="all">All</button>
+                    <button class="subcategory-btn" data-subcategory="weapons">Weapons</button>
+                    <button class="subcategory-btn" data-subcategory="armor">Armor</button>
+                    <button class="subcategory-btn" data-subcategory="misc">Misc</button>
+                </div>
+                <div id="search-container">
+                    <input type="text" id="search-input" placeholder="Search items...">
+                </div>
+            </section>
+    
+            <section id="progress-tracker">
+                <div id="progress-bar"></div>
+                <p id="progress-percentage">0% Complete</p>
+            </section>
+
+            <div class="toggle-btn-container">
+                <button id="toggle-completed" class="toggle-btn">Hide Completed</button>
+                <button id="clear-all-btn" class="toggle-btn">Clear All</button>
+            </div>
+            
+            
+            <section id="checklist">
+                <div id="checklist-items">
+                    <!-- Checklist items will be populated as buttons dynamically -->
+                </div>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Median XL Holy Grail. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
